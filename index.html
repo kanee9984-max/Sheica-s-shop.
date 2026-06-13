@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheiCa's Shop | Suplementos Deportivos y Nutrición</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts para tipografía profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header con Logo y Menú -->
+    <header class="header">
+        <div class="logo-container">
+            <!-- IMAGEN 1: LOGO -->
+            <img src="assets/logo-sheicas.png" alt="Logo SheiCa's Shop" class="brand-logo">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#testimonios">Reseñas</a></li>
+                <li><a href="#contacto" class="btn-nav">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Basado en Imagen 3 y Eslóganes) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>La calidad nunca pasa de moda <br> <span class="highlight">y en SheiCa's Shop la tienes asegurada.</span></h1>
+            <p>Suplementos de alta calidad, asesoría personalizada y envíos a todo el país. <br> ¡Potencia tus resultados!</p>
+            <a href="#catalogo" class="btn-hero">Ver Catálogo</a>
+            <a href="https://wa.me/5352433031" target="_blank" class="btn-whatsapp">Pedir por WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros (Imagen 8 + Historia Imagen 12) -->
+    <section id="nosotros" class="section-container">
+        <div class="flex-about">
+            <div class="about-text">
+                <h2>Conoce Nuestra Historia</h2>
+                <p><strong>¡Hola! Somos Sheila y Carlos, pero juntos somos SheiCa's Shop.</strong></p>
+                <p>¿Cómo empezó todo? Comenzó vendiendo pezoneras de silicona de la marca Teawbo Beauty, luego hicimos encargos en Shein junto a amigos. Después comenzamos a hacer encargos personalizados al gusto de cada cliente. </p>
+                <p><strong>Actualmente nuestro nicho son los suplementos deportivos</strong> y así nos convertimos en tu tienda de confianza.</p>
+                <div class="valores">
+                    <span>✅ Calidad Garantizada</span>
+                    <span>✅ Precios Justos</span>
+                    <span>✅ Atención Personalizada</span>
+                </div>
+            </div>
+            <div class="about-image">
+                <!-- IMAGEN 8: GIMNASIO -->
+                <img src="assets/gym-dumbbells.jpg" alt="Gimnasio y Pesas">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Catálogo (Productos Principales) -->
+    <section id="catalogo" class="section-container bg-gray">
+        <h2>Nuestras Categorías Estrella</h2>
+        <div class="product-grid">
+            
+            <!-- Proteína (Imagen 2) -->
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="assets/epic-whey.jpg" alt="Proteína Epic Whey">
+                </div>
+                <h3>Proteína</h3>
+                <p>Excelente para masa muscular y recuperación.</p>
+                <ul class="specs">
+                    <li>Servicios: 20s - 85s</li>
+                    <li>Precios: 25 - 90 USD</li>
+                </ul>
+                <a href="https://wa.me/5352433031" target="_blank" class="btn-card">Consultar</a>
+            </div>
+
+            <!-- Creatina (Imagen 7) -->
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="assets/godly-cre.jpg" alt="Creatina Godly Cre">
+                </div>
+                <h3>Creatina</h3>
+                <p>Rendimiento y fuerza explosiva. ¡No hincha!</p>
+                <ul class="specs">
+                    <li>Servicios: 30s - 200s</li>
+                    <li>Precios: 18 - 80 USD</li>
+                </ul>
+                <a href="https://wa.me/5352433031" target="_blank" class="btn-card">Consultar</a>
+            </div>
+
+            <!-- Pre-Entreno (Imagen 4) -->
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="assets/oxyshred.jpg" alt="Pre-entreno OxyShred">
+                </div>
+                <h3>Pre-Entrenos</h3>
+                <p>Energía y enfoque para tus rutinas.</p>
+                <ul class="specs">
+                    <li>Servicios: 20s - 60s</li>
+                    <li>Precios: 20 - 45 USD</li>
+                </ul>
+                <a href="https://wa.me/5352433031" target="_blank" class="btn-card">Consultar</a>
+            </div>
+
+            <!-- Fat Burner (Imagen 5) -->
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="assets/hydroxyelite.jpg" alt="Fat Burner HydroxyElite">
+                </div>
+                <h3>Fat Burners</h3>
+                <p>Acelera tu metabolismo en reposo.</p>
+                <ul class="specs">
+                    <li>Servicios: 60s - 90s</li>
+                    <li>Precios: 11 - 14 USD</li>
+                </ul>
+                <a href="https://wa.me/5352433031" target="_blank" class="btn-card">Consultar</a>
+            </div>
+
+            <!-- Epic Greens (Imagen 6) -->
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="assets/nutrifit.jpg" alt="NutriFit Epic Greens">
+                </div>
+                <h3>Epic Greens</h3>
+                <p>Mejora tu digestión, salud intestinal y energía.</p>
+                <ul class="specs">
+                    <li>Servicios: 30s</li>
+                    <li>Precios: 13 - 15 USD</li>
+                </ul>
+                <a href="https://wa.me/5352433031" target="_blank" class="btn-card">Consultar</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección Educativa (Mitos Creatina) -->
+    <section class="section-container edu-section">
+        <div class="edu-content">
+            <h2>¿Por qué la creatina NO hincha?</h2>
+            <div class="edu-flex">
+                <div class="edu-text">
+                    <p><strong>Porque el agua se mete para dentro del músculo</strong> (espacio intracelular), no para debajo de la piel (espacio extracelular).</p>
+                    <p>Esto mejora tu hidratación celular, recuperación y síntesis de proteínas. El músculo se ve más lleno y duro, no inflamado.</p>
+                    <p class="quote">"Como apretar una guayaba madura, no un aguacate pasado."</p>
+                    <a href="https://www.instagram.com/sheicas_shop/" target="_blank" class="btn-secondary">Síguenos para más tips en IG</a>
+                </div>
+                <div class="edu-badges">
+                    <div class="badge">💪 Más Fuerza</div>
+                    <div class="badge">🧠 Mejor Memoria</div>
+                    <div class="badge">⚡ Rendimiento</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Pasos para Comprar -->
+    <section id="contacto" class="section-container bg-gray">
+        <h2>🛒 ¿Cómo hago mi encargo?</h2>
+        <div class="steps-container">
+            <div class="step">
+                <span class="step-num">1</span>
+                <h4>Contáctanos</h4>
+                <p>Por WhatsApp <strong>+53 5 2433031</strong> o Instagram <strong>@sheicas_shop</strong></p>
+            </div>
+            <div class="step">
+                <span class="step-num">2</span>
+                <h4>Verifica Disponibilidad</h4>
+                <p>Pregunta por el producto que te interesa.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">3</span>
+                <h4>Haz tu Compra</h4>
+                <p>Con total confianza y envío seguro.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">4</span>
+                <h4>Deja tu Reseña</h4>
+                <p>Al recibir tu producto, comparte tu experiencia.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="https://wa.me/5352433031" target="_blank" class="btn-whatsapp">¡Haz tu pedido ahora!</a>
+        </div>
+    </section>
+
+    <!-- Sección Reseñas -->
+    <section id="testimonios" class="section-container">
+        <h2>Lo que nuestra tribu dice</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-item">
+                <p>"Muy bueno, te quita la ansiedad de comer. Es de los mejores que he comprado."</p>
+                <div class="testimonial-author">⭐ Cliente Satisfecha, 45 años</div>
+            </div>
+            <div class="testimonial-item">
+                <p>"Contentísima con mis cositas, los mejores suplementos y gracias por los regalitos extras."</p>
+                <div class="testimonial-author">⭐ Cliente Feliz</div>
+            </div>
+            <div class="testimonial-item">
+                <p>"Excelente servicio, me siento muy bien con los suplementos. 100% recomendado."</p>
+                <div class="testimonial-author">⭐ Cliente Recomendado</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <span class="purple">S</span><span class="orange">C</span> SheiCa's Shop
+        </div>
+        <div class="footer-links">
+            <a href="https://www.instagram.com/sheicas_shop/" target="_blank">Instagram</a>
+            <a href="https://wa.me/5352433031" target="_blank">WhatsApp</a>
+        </div>
+        <p>&copy; 2026 SheiCa's Shop. Todos los derechos reservados.</p>
+    </footer>
+
+    <a href="https://wa.me/5352433031" target="_blank" class="whatsapp-float">💬</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
